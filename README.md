@@ -27,7 +27,7 @@ Options
 | handlers | Array  | False    | List of sensu handlers, default is empty                     |
 | output   | String | True     | Any                                                          |
 
-### Usage will all options
+### Usage with all options
 
 ```python
 output {
