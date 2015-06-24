@@ -20,7 +20,7 @@ Options
 
 | Name     | Type   | Required | Values                                                       |
 |----------|--------|----------|--------------------------------------------------------------|
-| check    | String | True     | Any (Make sure it doesn't conflick with another sensu check) |
+| check    | String | True     | Any (Make sure it doesn't conflict with another Sensu check) |
 | host     | String | False    | IP, FQDN but defaults to localhost                           |
 | port     | String | False    | Port the Sensu client is listening on, defaults to 3030      |
 | status   | Number | False    | 0 = OK, 1 = WARN, 2 = CRITICAL, 3 = CUSTOM - default is 2    |
